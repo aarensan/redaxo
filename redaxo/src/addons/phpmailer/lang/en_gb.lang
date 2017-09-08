@@ -37,3 +37,7 @@ phpmailer_high = High
 phpmailer_normal = Normal
 phpmailer_low = Low
 phpmailer_no = no
+phpmailer_backup = E-Mail Backup
+phpmailer_backup_info = Backup-Folder: <span title="{0}">{1}</span>
+phpmailer_backup_yes = Yes
+phpmailer_backup_no = No

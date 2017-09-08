@@ -37,6 +37,7 @@ foreach($sql as $row)
     $mail->AddAddress($row->getValue("email"), $row->getValue("full_name"));
     $mail->AddStringAttachment($sql->getValue("photo"), "YourPhoto.jpg");
 
+    // $mail->setBackup(true); // if backup for every E-Mail is needed (or not), overwrites default config
     if(!$mail->Send())
         echo "There has been a mail error sending to " . $row->getValue("email") . "<br>";
 

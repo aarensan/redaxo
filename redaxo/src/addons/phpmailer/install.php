@@ -27,4 +27,5 @@ if (!$this->hasConfig()) {
     $this->setConfig('username', '');
     $this->setConfig('password', '');
     $this->setConfig('smtp_debug', '0');
+    $this->setConfig('backup', 1);
 }
